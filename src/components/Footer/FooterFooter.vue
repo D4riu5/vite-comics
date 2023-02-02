@@ -10,7 +10,7 @@ export default {
 
 
 <template>
-    <footer class="bg-secondary text-white">
+    <footer class="bg-secondary text-white py-4">
         <div class="container d-flex justify-content-between">
             <div>
                 Left
@@ -23,5 +23,5 @@ export default {
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
 </style>
