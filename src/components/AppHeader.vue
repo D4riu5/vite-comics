@@ -16,34 +16,34 @@ export default {
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
             <nav class="d-flex justify-content-between align-items-center">
-                <a href="">
+                <a href="#nogo">
                     CHARACTERS
                 </a>
-                <a class="active" href="">
+                <a class="active" href="#nogo">
                     COMICS
                 </a>
-                <a href="">
+                <a href="#nogo">
                     MOVIES
                 </a>
-                <a href="">
+                <a href="#nogo">
                     TV
                 </a>
-                <a href="">
+                <a href="#nogo">
                     GAMES
                 </a>
-                <a href="">
+                <a href="#nogo">
                     COLLECTIBLES
                 </a>
-                <a href="">
+                <a href="#nogo">
                     VIDEOS
                 </a>
-                <a href="">
+                <a href="#nogo">
                     FANS
                 </a>
-                <a href="">
+                <a href="#nogo">
                     NEWS
                 </a>
-                <a href="">
+                <a href="#nogo">
                     SHOP
                 </a>
             </nav>
