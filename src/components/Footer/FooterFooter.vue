@@ -2,9 +2,6 @@
 
 export default {
     name: 'FooterFooter',
-    components: {
-
-    }
 }
 </script>
 

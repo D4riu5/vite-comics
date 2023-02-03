@@ -94,22 +94,27 @@ export default {
 
 
 <style lang="scss" scoped>
-img{
-    width: 75px;
-    aspect-ratio: 1/1;
-}
 
-a{
-    text-decoration: none;
-    color: black;
-    padding: 50px 10px;
-    margin: 0 5px;
-    font-size: 12px;   
+header{
+
+    img{
+        width: 75px;
+        aspect-ratio: 1/1;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 50px 2px;
+        margin: 0 5px;
+        font-size: 12px;   
     
-    &.active{
-        border-bottom: solid 6px #0282F9;
-        padding-bottom: 44px
+        &.active{
+            border-bottom: solid 6px #0282F9;
+            padding-bottom: 44px
+        }
     }
 }
+
 
 </style>

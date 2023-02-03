@@ -2,9 +2,6 @@
 
 export default {
     name: 'FooterHeader',
-    components: {
-
-    }
 }
 </script>
 
@@ -51,5 +48,8 @@ header{
         font-size: 12px;
     }
 }
+
+
+
 
 </style>
