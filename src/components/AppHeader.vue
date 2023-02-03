@@ -4,8 +4,76 @@ export default {
     name: 'AppHeader',
     components: {
 
+    },
+    data() {
+        return {
+            links: [
+                {
+                    label: 'CHARACTERS',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'COMICS',
+                    url: '#nogo',
+                    active: true,
+                },
+                {
+                    label: 'MOVIES',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'COMICS',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'MOVIES',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'TV',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'GAMES',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'COLLECTIBLES',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'VIDEOS',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'FANS',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'NEWS',
+                    url: '#nogo',
+                    active: false,
+                },
+                {
+                    label: 'SHOP',
+                    url: '#nogo',
+                    active: false,
+                },
+
+            ]
+        };
     }
 }
+
 </script>
 
 
@@ -16,35 +84,8 @@ export default {
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
             <nav class="d-flex justify-content-between align-items-center">
-                <a href="#nogo">
-                    CHARACTERS
-                </a>
-                <a class="active" href="#nogo">
-                    COMICS
-                </a>
-                <a href="#nogo">
-                    MOVIES
-                </a>
-                <a href="#nogo">
-                    TV
-                </a>
-                <a href="#nogo">
-                    GAMES
-                </a>
-                <a href="#nogo">
-                    COLLECTIBLES
-                </a>
-                <a href="#nogo">
-                    VIDEOS
-                </a>
-                <a href="#nogo">
-                    FANS
-                </a>
-                <a href="#nogo">
-                    NEWS
-                </a>
-                <a href="#nogo">
-                    SHOP
+                <a v-for="link in links" :href="link.url" :class="{ 'active': link.active == true}">
+                    {{ link.label }}
                 </a>
             </nav>
         </div>
