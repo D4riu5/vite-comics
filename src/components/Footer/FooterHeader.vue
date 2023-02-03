@@ -10,7 +10,7 @@ export default {
 
 
 <template>
-    <header class="bg-primary text-white py-5">
+    <header class=" text-white py-5">
        <div class="container d-flex px-5 justify-content-between">
             <div>
                 <img src="../../assets/img/buy-comics-digital-comics.png" alt="">
@@ -38,13 +38,18 @@ export default {
 
 
 <style lang="scss" scoped>
-img{
+header{
+    background-color: #0282F9;
+
+    img{
     width: 40px;
-    aspect-ratio: 1/1.2;
+    aspect-ratio: 1/1.1;
+    }
+
+    span{
+        padding: 0 10px;
+        font-size: 12px;
+    }
 }
 
-span{
-    padding: 0 10px;
-    font-size: 12px;
-}
 </style>

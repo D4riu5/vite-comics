@@ -63,9 +63,7 @@ a{
     color: black;
     padding: 50px 10px;
     margin: 0 5px;
-    font-size: 12px;
-    font-weight: bold;
-    
+    font-size: 12px;   
     
     &.active{
         border-bottom: solid 6px #0282F9;
